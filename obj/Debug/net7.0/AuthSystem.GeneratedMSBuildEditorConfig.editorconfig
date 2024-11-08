@@ -1,0 +1,119 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = AuthSystem
+build_property.RootNamespace = AuthSystem
+build_property.ProjectDir = /Users/rabiademir/Downloads/Asp-2.Net-Core-MVC-Identity---Complete-User-Authentication-System-main/AuthSystem/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/rabiademir/Downloads/Asp-2.Net-Core-MVC-Identity---Complete-User-Authentication-System-main/AuthSystem
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/rabiademir/Downloads/Asp-2.Net-Core-MVC-Identity---Complete-User-Authentication-System-main/AuthSystem/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rabiademir/Downloads/Asp-2.Net-Core-MVC-Identity---Complete-User-Authentication-System-main/AuthSystem/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9SZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rabiademir/Downloads/Asp-2.Net-Core-MVC-Identity---Complete-User-Authentication-System-main/AuthSystem/Areas/Identity/Pages/Account/TeacherLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9UZWFjaGVyTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rabiademir/Downloads/Asp-2.Net-Core-MVC-Identity---Complete-User-Authentication-System-main/AuthSystem/Areas/Identity/Pages/Account/TeacherRegister.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9UZWFjaGVyUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rabiademir/Downloads/Asp-2.Net-Core-MVC-Identity---Complete-User-Authentication-System-main/AuthSystem/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9fVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rabiademir/Downloads/Asp-2.Net-Core-MVC-Identity---Complete-User-Authentication-System-main/AuthSystem/Areas/Identity/Pages/_AuthLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX0F1dGhMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rabiademir/Downloads/Asp-2.Net-Core-MVC-Identity---Complete-User-Authentication-System-main/AuthSystem/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rabiademir/Downloads/Asp-2.Net-Core-MVC-Identity---Complete-User-Authentication-System-main/AuthSystem/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rabiademir/Downloads/Asp-2.Net-Core-MVC-Identity---Complete-User-Authentication-System-main/AuthSystem/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rabiademir/Downloads/Asp-2.Net-Core-MVC-Identity---Complete-User-Authentication-System-main/AuthSystem/Views/Grade/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR3JhZGUvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rabiademir/Downloads/Asp-2.Net-Core-MVC-Identity---Complete-User-Authentication-System-main/AuthSystem/Views/Grade/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR3JhZGUvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rabiademir/Downloads/Asp-2.Net-Core-MVC-Identity---Complete-User-Authentication-System-main/AuthSystem/Views/Home/AddGrade.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9BZGRHcmFkZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rabiademir/Downloads/Asp-2.Net-Core-MVC-Identity---Complete-User-Authentication-System-main/AuthSystem/Views/Home/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9EYXNoYm9hcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rabiademir/Downloads/Asp-2.Net-Core-MVC-Identity---Complete-User-Authentication-System-main/AuthSystem/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rabiademir/Downloads/Asp-2.Net-Core-MVC-Identity---Complete-User-Authentication-System-main/AuthSystem/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rabiademir/Downloads/Asp-2.Net-Core-MVC-Identity---Complete-User-Authentication-System-main/AuthSystem/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rabiademir/Downloads/Asp-2.Net-Core-MVC-Identity---Complete-User-Authentication-System-main/AuthSystem/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rabiademir/Downloads/Asp-2.Net-Core-MVC-Identity---Complete-User-Authentication-System-main/AuthSystem/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rabiademir/Downloads/Asp-2.Net-Core-MVC-Identity---Complete-User-Authentication-System-main/AuthSystem/Views/Teacher/AssignGrade.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGVhY2hlci9Bc3NpZ25HcmFkZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rabiademir/Downloads/Asp-2.Net-Core-MVC-Identity---Complete-User-Authentication-System-main/AuthSystem/Views/Teacher/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGVhY2hlci9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rabiademir/Downloads/Asp-2.Net-Core-MVC-Identity---Complete-User-Authentication-System-main/AuthSystem/Views/Teacher/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGVhY2hlci9Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rabiademir/Downloads/Asp-2.Net-Core-MVC-Identity---Complete-User-Authentication-System-main/AuthSystem/Views/Teacher/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGVhY2hlci9SZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rabiademir/Downloads/Asp-2.Net-Core-MVC-Identity---Complete-User-Authentication-System-main/AuthSystem/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rabiademir/Downloads/Asp-2.Net-Core-MVC-Identity---Complete-User-Authentication-System-main/AuthSystem/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rabiademir/Downloads/Asp-2.Net-Core-MVC-Identity---Complete-User-Authentication-System-main/AuthSystem/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-mwi9yv2bb2

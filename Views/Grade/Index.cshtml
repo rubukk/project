@@ -1,0 +1,28 @@
+﻿@model IEnumerable<AuthSystem.Models.CourseGrade>
+
+<div class="container mt-4">
+    <h2>Grade Management</h2>
+    <a asp-action="Create" class="btn btn-primary mb-3">Add New Grade</a>
+
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Student Name</th>
+                <th>Course</th>
+                <th>Grade</th>
+                <th>Teacher</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var grade in Model)
+            {
+                <tr>
+                    <td>@grade.FirstName</td>
+                    <td>@grade.CourseName</td>
+                    <td>@grade.Grade</td>
+                    <td>@grade.TeachersName</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

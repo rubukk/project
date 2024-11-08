@@ -1,0 +1,10 @@
+﻿@model AuthSystem.Models.TeacherLoginModel
+
+<form asp-action="Login" method="post">
+    <label>Email</label>
+    <input asp-for="Email" type="email" />
+    <label>Password</label>
+    <input asp-for="Password" type="password" />
+    <input asp-for="RememberMe" type="checkbox" /> Remember Me
+    <button type="submit">Login</button>
+</form>

@@ -1,0 +1,102 @@
+﻿@model List<CourseGrade> // Model olarak CourseGrade listesini belirtin
+
+<table class="grades-table">
+    <thead>
+        <tr>
+            <th>Teacher Name</th>
+            <th>Course Name</th>
+            <th>Grade</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var grade in Model) // Modelden notları döngü ile al
+        {
+            <tr>
+                <td>@grade.TeachersName</td>
+                <td>@grade.CourseName</td>
+                <td>@grade.Grade</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<style>
+    /* General styles */
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: #1f2227;
+        color: #f5f5dc; /* Ensures text color is readable */
+    }
+
+    /* Container for the login form */
+    .row.justify-content-center {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .col-10 {
+        max-width: 600px;
+    }
+
+    /* Section for form styling */
+    section {
+        background-color: #3c3f45;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Title and header styles */
+    h2 {
+        font-size: 2rem;
+        color: #ffffff;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    /* Divider between sections */
+    hr {
+        border: 0;
+        border-top: 1px solid #ddd;
+        margin-bottom: 20px;
+    }
+
+    /* Table styling */
+    .grades-table {
+        width: 100%;
+        margin-top: 30px;
+        border-collapse: collapse;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+
+        .grades-table th, .grades-table td {
+            padding: 12px 15px;
+            text-align: left;
+        }
+
+        .grades-table thead {
+            background-color: #444;
+            color: #ffffff;
+        }
+
+        .grades-table tbody tr {
+            background-color: #3c3f45;
+            transition: background-color 0.3s;
+        }
+
+            .grades-table tbody tr:hover {
+                background-color: #2f3339;
+            }
+
+        .grades-table td {
+            border-bottom: 1px solid #ddd;
+        }
+
+    /* Button styling */
+
+    .btn:hover {
+        background-color: ##b34d4d;
+    }
+</style>

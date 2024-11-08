@@ -1,0 +1,17 @@
+﻿@model AuthSystem.Models.TeacherRegisterModel
+
+<form asp-action="Register" method="post">
+    <label>Email</label>
+    <input asp-for="Email" type="email" />
+    <label>First Name</label>
+    <input asp-for="FirstName" type="text" />
+    <label>Last Name</label>
+    <input asp-for="LastName" type="text" />
+    <label>Password</label>
+    <input asp-for="Password" type="password" />
+    <label>Confirm Password</label>
+    <input asp-for="ConfirmPassword" type="password" />
+    <button type="submit">Register</button>
+</form>
+ 
+

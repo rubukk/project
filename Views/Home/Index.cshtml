@@ -1,0 +1,115 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<style>
+    /* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1f2227;
+}
+
+/* Container for the login form */
+.row.justify-content-center {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.col-10 {
+    max-width: 600px;
+}
+
+/* Section for form styling */
+section {
+    background-color: #3c3f45;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Title and header styles */
+h2 {
+    font-size: 2rem;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Divider between sections */
+hr {
+    border: 0;
+    border-top: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+/* Form input and label styling */
+.form-floating {
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+.form-floating .form-control {
+    height: 50px;
+    padding: 15px;
+    font-size: 1rem;
+}
+
+.form-floating label {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Error message styling */
+.text-danger {
+    font-size: 0.875rem;
+    color: #e74c3c;
+}
+
+/* Checkbox styling */
+.checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.checkbox label {
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.checkbox .form-check-input {
+    margin-right: 10px;
+}
+
+/* Submit button styling */
+#login-submit {
+    background-color: #b34d4d;
+    color: #fff;
+    font-size: 1.125rem;
+    padding: 10px 0;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+#login-submit:hover {
+    background-color: #0056b3;
+}
+
+
+/* Additional input styling */
+.form-floating .form-control:focus {
+    border-color: #0056b3;
+    box-shadow: 0 0 5px rgba(0, 86, 179, 0.5);
+}
+
+</style>
+<div class="text-center">
+    <h1 class="display-4" style="color: white;">Welcome</h1>
+    <p class="student-number" style="color: #f5f5dc;">Student Number: @ViewData["UserID"]</p>
+
+    <!-- Dashboard'a yönlendiren bağlantı burada -->
+    <a asp-controller="Home" asp-action="Dashboard" class="btn mt-3" style="background-color: #b34d4d; color: white;">View Grades</a>
+</div>
